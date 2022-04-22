@@ -1,0 +1,187 @@
+{
+  "id": "55afa6c0-3ee4-4c3a-ab78-112b66d22ca8",
+  "version": "2.0",
+  "name": "obrkarta.ru",
+  "url": "https://obrkarta.ru",
+  "tests": [{
+    "id": "20cf408c-5512-468b-8d33-071037a521b4",
+    "name": "Вход  в личный кабинет",
+    "commands": [{
+      "id": "ec550381-56eb-416e-b4aa-0a379708d421",
+      "comment": "",
+      "command": "open",
+      "target": "https://obrkarta.ru",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b12e15-ed13-4241-90ac-a5a5b279c23f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "801x959",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be18ea99-420b-4b1f-91f8-d6f0db323821",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='personal']",
+      "targets": [
+        ["id=personal", "id"],
+        ["css=#personal", "css:finder"],
+        ["xpath=//a[@id='personal']", "xpath:attributes"],
+        ["xpath=//div[@id='nav']/div/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d44645e-d6ba-423e-bdc1-7eedc4dff8ba",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='login']",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.log_in input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='personal-block']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a8f46b-f8be-460f-b314-740c510c34d2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='login']",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.log_in input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='personal-block']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "17003054"
+    }, {
+      "id": "37173b1f-22ff-4464-b08c-5dc5d7c6b084",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='password']",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.log_in input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='personal-block']/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ba163f-e911-455a-b0eb-beeda2ca64c5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='password']",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.log_in input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='personal-block']/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "17003054"
+    }, {
+      "id": "73b26ecf-2a4c-4ed1-b2cb-fe019a3aa135",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Войти')]",
+      "targets": [
+        ["css=.log_in .button-personal", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='personal-block']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bc2143c-d492-460b-aeef-a570ce190cf0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Мустафин Яропол...')]",
+      "targets": [
+        ["css=.dropdown-toggle > span", "css:finder"],
+        ["xpath=//div[@id='nav']/div/div/div/div[5]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мустафин Яропол...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76092d75-f59f-47e7-8f37-d648af6840ab",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Личные данные')]",
+      "targets": [
+        ["linkText=Личные данные", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Личные данные')]", "xpath:link"],
+        ["xpath=//div[@id='nav']/div/div/div/div[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/profile/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Личные данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a6848b6-82b1-45fa-bbf2-243ce546e12c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cabinet__item:nth-child(3) .js-change-show > .btn_style",
+      "targets": [
+        ["css=.cabinet__item:nth-child(3) .js-change-show > .btn_style", "css:finder"],
+        ["xpath=//input[@value='Изменить']", "xpath:attributes"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d8e620e-b72e-45f7-8b48-fc30e2484527",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='limit']",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=.cabinet__item:nth-child(3) .change", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e921e099-29c9-4e0a-af47-cbeba7eb6e04",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='limit']",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=.cabinet__item:nth-child(3) .change", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "0.02"
+    }, {
+      "id": "9715c4a6-d9f5-412d-b44b-72676ab2199c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cabinet__item:nth-child(3) .js-change-hide > .btn_style",
+      "targets": [
+        ["css=.cabinet__item:nth-child(3) .js-change-hide > .btn_style", "css:finder"],
+        ["xpath=(//input[@value='Сохранить'])[2]", "xpath:attributes"],
+        ["xpath=//span/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4dec1788-4c8f-4eba-b310-7d2d56b1b7df",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["20cf408c-5512-468b-8d33-071037a521b4"]
+  }],
+  "urls": ["https://obrkarta.ru/"],
+  "plugins": []
+}
